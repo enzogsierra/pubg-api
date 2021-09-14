@@ -1,0 +1,47 @@
+.section
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.erangel { background-image: url("../img/erangel.jpg"); }
+.miramar { background-image: url("../img/miramar.jpg"); }
+.sanhok { background-image: url("../img/sanhok.webp"); }
+.vikendi { background-image: url("../img/vikendi.jpg"); }
+.karakin { background-image: url("../img/karakin.jpg"); }
+.taego { background-image: url("../img/taego.jpg"); }
+
+.match
+{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+    /*  */
+    margin: .4rem auto;
+    padding: 1rem; 
+    width: 40rem;
+    
+    background-color: grey;
+    color: white;
+
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    overflow: hidden;
+
+    box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
+    -webkit-box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
+    -moz-box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
+}
+
+.match-link
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.match-map
+{
+    text-transform: uppercase;
+}

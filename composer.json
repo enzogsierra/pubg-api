@@ -1,0 +1,24 @@
+{
+    "name": "enzom/6-bienes-raices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors":
+    [
+        {
+            "name": "Enzo Sierra",
+            "email": "enzometlc@hotmail.com"
+        }
+    ],
+    "require": 
+    {
+    },
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}

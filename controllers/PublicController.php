@@ -11,7 +11,7 @@ class PublicController
 
         if($_SERVER["REQUEST_METHOD"] === "POST")
         {
-            header("Location: /user?player=${player}");
+            header("Location: /user?id=${player}");
         }
 
         $router->render("public/index", 

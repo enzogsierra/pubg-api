@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", async () =>
     const match = await getMatchStats(matchId);
     var player = []; // player[id] = {info} | Contains participants' info
     var rank = []; // rank[position] = [participants' id] | Contains all participants' id depeding on his rank
+    console.log(match.data.attributes);
 
     // Participants
     match.included.forEach(data =>

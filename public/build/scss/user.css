@@ -4,7 +4,7 @@
     margin-bottom: 1rem;
 }
 
-
+.training { background-image: url("../img/training.jpg"); }
 .erangel { background-image: url("../img/erangel.jpg"); }
 .miramar { background-image: url("../img/miramar.jpg"); }
 .sanhok { background-image: url("../img/sanhok.webp"); }
@@ -14,17 +14,16 @@
 
 .match
 {
-    position: relative;
     background-size: cover;
     background-position: center;
 
     /*  */
-    margin: .4rem auto;
-    padding: 1rem; 
+    margin: 1rem auto;
+    padding: 1rem;
     width: 40rem;
     
     background-color: grey;
-    color: white;
+    
 
     /* border: 1px solid black; */
     border-radius: 4px;
@@ -33,14 +32,26 @@
     box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
     -webkit-box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
     -moz-box-shadow: 1px -1px 14px 6px rgba(0,0,0,0.49) inset;
+    filter: grayscale(.5);
+    -webkit-filter: grayscale(-5);
+    transition: filter .2s ease, -webkit-filter .2s ease, transform .2s ease;
 }
+.match:hover
+{
+    filter: none;
+    -webkit-filter: none;
+    transform: scale(1.02);
+}
+.match:hover .match-link { color: white; } /* Fix some links issues */
 
 .match-link
 {
-    position: absolute;
+    color: white;
+    text-decoration: none;
     width: 100%;
     height: 100%;
 }
+
 .match-map
 {
     text-transform: uppercase;

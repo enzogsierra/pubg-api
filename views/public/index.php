@@ -2,7 +2,7 @@
     <h2 class="h2 text-center">Search for a PUBG player stats</h2>
 
     <form class="input-group" method="POST" action="/">
-        <input name="player" type="text" value="<?php echo $player; ?>" class="form-control pubg-nicksearch" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+        <input name="id" type="text" value="<?php echo $player; ?>" class="form-control pubg-nicksearch" aria-label="Recipient's username" aria-describedby="button-addon2" required>
         <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
     </form>
 
